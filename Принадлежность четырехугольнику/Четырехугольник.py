@@ -49,11 +49,13 @@ while input('Продолжаем? [Y/N]') == 'Y':
 
     if test:
 
-        if polygon(len(x), X, Y) == 1:
+        result = polygon(len(x), X, Y)
+
+        if result == 1:
             print('точка внутри четырехугольника')
 
-        elif polygon(len(x), X, Y) == -1:
+        elif result == -1:
             print('точка снаружи четырехугольника')
 
-        elif polygon(len(x), X, Y) == 0:
+        elif result == 0:
             print('точка лежит на сторонах четырехугольника')
