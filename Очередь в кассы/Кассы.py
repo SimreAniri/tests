@@ -13,7 +13,6 @@ def sum_of_customers(filename):
 
 
 start_time = timedelta(hours=8)
-print(start_time)
 
 
 sum_of_customers('1.txt')
@@ -22,7 +21,6 @@ sum_of_customers('3.txt')
 sum_of_customers('4.txt')
 sum_of_customers('5.txt')
 
-print(sum)
 
 max_customers = max(sum)
 
