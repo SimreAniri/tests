@@ -8,8 +8,10 @@ def average(list):
 def median(list):
     lens = len(list)
     med = lens//2
+
     if not lens%2:
         return (list[med] + list[med-1]) / 2
+
     else:
         return list[med]
 
